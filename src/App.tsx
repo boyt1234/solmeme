@@ -10,12 +10,11 @@ import {
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import {
   PhantomWalletAdapter,
-  SolflareWalletAdapter,
-  TorusWalletAdapter,
-  LedgerWalletAdapter,
-  CoinbaseWalletAdapter,
-  MathWalletAdapter,
-  TrustWalletAdapter,
+  //SolflareWalletAdapter,
+  //LedgerWalletAdapter,
+  //CoinbaseWalletAdapter,
+  //MathWalletAdapter,
+  //TrustWalletAdapter,
 } from "@solana/wallet-adapter-wallets";
 import { clusterApiUrl } from "@solana/web3.js";
 import ReferralPage from "./pages/ReferralPage";
@@ -51,12 +50,11 @@ function App() {
   const wallets = useMemo(
     () => [
       new PhantomWalletAdapter(),
-      new SolflareWalletAdapter(),
-      new TorusWalletAdapter(),
-      new LedgerWalletAdapter(),
-      new CoinbaseWalletAdapter(),
-      new MathWalletAdapter(),
-      new TrustWalletAdapter(),
+      //new SolflareWalletAdapter(),
+      //new LedgerWalletAdapter(),
+      //new CoinbaseWalletAdapter(),
+      //new MathWalletAdapter(),
+      //new TrustWalletAdapter(),
     ],
     []
   );
