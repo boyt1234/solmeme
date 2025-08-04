@@ -13,6 +13,7 @@ import {
   Select,
   Portal,
   createListCollection,
+  Spinner,
 } from "@chakra-ui/react";
 import Navbar from "../components/NavBar";
 import {
@@ -703,6 +704,7 @@ const CreateTokenPage = () => {
           justifyContent="center"
           zIndex={1000}
         >
+          <Spinner size="xl" color="white" mb={4} />
           <Text fontSize="xl" color="white">
             ⏳ Your token is being created...
           </Text>
