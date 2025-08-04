@@ -9,7 +9,7 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/modal";
 import { Button, Box, Text, Link, Flex } from "@chakra-ui/react";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { FiExternalLink } from "react-icons/fi";
 
 type SuccessModalProps = {
   isOpen: boolean;
@@ -82,7 +82,8 @@ export default function SuccessModal({
             fontWeight="bold"
             fontSize="sm"
           >
-            View on Solana Explorer <ExternalLinkIcon boxSize={4} mx="1" />{" "}
+            View on Solana Explorer{" "}
+            <FiExternalLink size={12} style={{ marginLeft: 4 }} />{" "}
             {/* smaller icon size */}
           </Link>
 
