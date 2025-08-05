@@ -6,7 +6,7 @@ import creator from "../assets/creator.png";
 const WorldPowerSection = () => {
   return (
     <Box
-      mt={{ base: 24, md: 32 }} // Add margin from previous section
+      mt={{ base: 24, md: 26 }} // Add margin from previous section
       borderTopLeftRadius="80px"
       borderTopRightRadius="80px"
       overflow="hidden"

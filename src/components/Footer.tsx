@@ -41,11 +41,6 @@ const Footer = () => {
         </VStack>
 
         {/* Logo on the far left */}
-        <Box position="absolute" left={0}>
-          <Text fontWeight="bold" fontSize="xl">
-            SolXme
-          </Text>
-        </Box>
       </Flex>
     </Box>
   );

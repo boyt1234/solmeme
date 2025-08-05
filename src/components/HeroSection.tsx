@@ -44,15 +44,14 @@ const HeroSection = () => {
       >
         <VStack gap={8} maxW="3xl" w="100%" zIndex={2}>
           <Box
-            mt={12}
-            px={6}
+            mt={{ base: 20, md: 24 }} // adjust here responsively
+            px={15}
             py={2}
             bg="whiteAlpha.200"
             border="2px solid white"
             borderRadius="full"
             fontWeight="bold"
             fontSize="sm"
-            backdropFilter="blur(8px)"
           >
             #1 Solana Token Launcher in the World
           </Box>

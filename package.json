@@ -23,6 +23,8 @@
     "@chakra-ui/textarea": "^2.1.2",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@mantine/core": "^8.2.2",
+    "@mantine/hooks": "^8.2.2",
     "@solana/wallet-adapter-backpack": "^0.1.14",
     "@solana/wallet-adapter-base": "^0.9.27",
     "@solana/wallet-adapter-brave": "^0.1.17",
