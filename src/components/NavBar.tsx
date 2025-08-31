@@ -33,6 +33,14 @@ const Navbar = () => {
         Liquidity Pool
       </RouterLink>
       <a
+        href="https://www.youtube.com/watch?v=NY56fIIBeMQ&t=10s"
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={onClose}
+      >
+        Youtube Tutorial
+      </a>
+      <a
         href="https://raydium.io"
         target="_blank"
         rel="noopener noreferrer"
